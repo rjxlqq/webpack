@@ -37,14 +37,14 @@ module.exports = {
       when: 'isNotTest',
       type: 'string',
       required: true,
-      message: 'Project name',
+      message: 'rjx create this pro',
     },
     description: {
       when: 'isNotTest',
       type: 'string',
       required: false,
       message: 'rjx create this pro',
-      default: 'A Vue.js project',
+      default: 'rjx create this pro',
     },
     author: {
       when: 'isNotTest',
