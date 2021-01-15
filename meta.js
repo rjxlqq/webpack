@@ -31,7 +31,7 @@ module.exports = {
       return templateVersion
     },
   },
-  
+
   prompts: {
     name: {
       when: 'isNotTest',
@@ -40,14 +40,14 @@ module.exports = {
       message: 'Project name',
     },
     description: {
-      when: 'isNotTest',
+      when: 'rjx create this pro',
       type: 'string',
       required: false,
       message: 'Project description',
       default: 'A Vue.js project',
     },
     author: {
-      when: 'isNotTest',
+      when: 'rjx',
       type: 'string',
       message: 'Author',
     },
